@@ -70,6 +70,15 @@
 #define VTLog(...)
 #endif
 
+//自定义Log
+#ifdef DEBUG
+#define MYLog(...) NSLog(__VA_ARGS__)
+#else
+#define MYLog(...)
+#endif
+
+#define MYLogFunc MYLog(@"%s", __func__)
+
 /**观察者*/
 #define APPNotificationCenter [NSNotificationCenter defaultCenter]
 

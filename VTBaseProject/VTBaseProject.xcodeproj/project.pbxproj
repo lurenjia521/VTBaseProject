@@ -148,6 +148,14 @@
 		DFB0297820731BD200546D26 /* MMButton.m in Sources */ = {isa = PBXBuildFile; fileRef = DFB0295820731BD200546D26 /* MMButton.m */; };
 		DFB0297920731BD200546D26 /* WJTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = DFB0295920731BD200546D26 /* WJTextView.m */; };
 		DFB0297C207324E000546D26 /* VTHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFB0297B207324E000546D26 /* VTHomeViewController.m */; };
+		DFB0298A2073336D00546D26 /* NSString+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = DFB0297E2073336D00546D26 /* NSString+Helper.m */; };
+		DFB0298B2073336D00546D26 /* UIButton+PKExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = DFB029812073336D00546D26 /* UIButton+PKExtension.m */; };
+		DFB0298C2073336D00546D26 /* UIImage+PKExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = DFB029822073336D00546D26 /* UIImage+PKExtension.m */; };
+		DFB0298D2073336D00546D26 /* UIView+PKExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = DFB029862073336D00546D26 /* UIView+PKExtension.m */; };
+		DFB0298E2073336D00546D26 /* UIColor+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = DFB029872073336D00546D26 /* UIColor+Extension.m */; };
+		DFB0298F2073336D00546D26 /* UIBarButtonItem+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = DFB029882073336D00546D26 /* UIBarButtonItem+Extension.m */; };
+		DFB02995207333A200546D26 /* PKGlobeConst.m in Sources */ = {isa = PBXBuildFile; fileRef = DFB02991207333A100546D26 /* PKGlobeConst.m */; };
+		DFB02996207333A200546D26 /* RequestTool.m in Sources */ = {isa = PBXBuildFile; fileRef = DFB02994207333A200546D26 /* RequestTool.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -455,6 +463,22 @@
 		DFB0295920731BD200546D26 /* WJTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJTextView.m; sourceTree = "<group>"; };
 		DFB0297A207324E000546D26 /* VTHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VTHomeViewController.h; sourceTree = "<group>"; };
 		DFB0297B207324E000546D26 /* VTHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VTHomeViewController.m; sourceTree = "<group>"; };
+		DFB0297E2073336D00546D26 /* NSString+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Helper.m"; sourceTree = "<group>"; };
+		DFB0297F2073336D00546D26 /* UIView+PKExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+PKExtension.h"; sourceTree = "<group>"; };
+		DFB029802073336D00546D26 /* UIColor+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Extension.h"; sourceTree = "<group>"; };
+		DFB029812073336D00546D26 /* UIButton+PKExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+PKExtension.m"; sourceTree = "<group>"; };
+		DFB029822073336D00546D26 /* UIImage+PKExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+PKExtension.m"; sourceTree = "<group>"; };
+		DFB029832073336D00546D26 /* UIBarButtonItem+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Extension.h"; sourceTree = "<group>"; };
+		DFB029842073336D00546D26 /* NSString+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Helper.h"; sourceTree = "<group>"; };
+		DFB029852073336D00546D26 /* UIButton+PKExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+PKExtension.h"; sourceTree = "<group>"; };
+		DFB029862073336D00546D26 /* UIView+PKExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+PKExtension.m"; sourceTree = "<group>"; };
+		DFB029872073336D00546D26 /* UIColor+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Extension.m"; sourceTree = "<group>"; };
+		DFB029882073336D00546D26 /* UIBarButtonItem+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Extension.m"; sourceTree = "<group>"; };
+		DFB029892073336D00546D26 /* UIImage+PKExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+PKExtension.h"; sourceTree = "<group>"; };
+		DFB02991207333A100546D26 /* PKGlobeConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKGlobeConst.m; sourceTree = "<group>"; };
+		DFB02992207333A100546D26 /* RequestTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequestTool.h; sourceTree = "<group>"; };
+		DFB02993207333A100546D26 /* PKGlobeConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKGlobeConst.h; sourceTree = "<group>"; };
+		DFB02994207333A200546D26 /* RequestTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RequestTool.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1055,6 +1079,7 @@
 		DFB0291320731BD200546D26 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				DFB02990207333A100546D26 /* Request */,
 				DFB0291420731BD200546D26 /* Table_Refresh */,
 				DFB0291D20731BD200546D26 /* BaseTools.h */,
 				DFB0291A20731BD200546D26 /* BaseTools.m */,
@@ -1080,6 +1105,7 @@
 		DFB0291F20731BD200546D26 /* category */ = {
 			isa = PBXGroup;
 			children = (
+				DFB0297D2073336D00546D26 /* category */,
 				DFB0294820731BD200546D26 /* UIViewController+MainController.h */,
 				DFB0292B20731BD200546D26 /* UIViewController+MainController.m */,
 				DFB0292720731BD200546D26 /* Notification */,
@@ -1173,6 +1199,36 @@
 				DFB0295920731BD200546D26 /* WJTextView.m */,
 			);
 			path = Custom;
+			sourceTree = "<group>";
+		};
+		DFB0297D2073336D00546D26 /* category */ = {
+			isa = PBXGroup;
+			children = (
+				DFB0297E2073336D00546D26 /* NSString+Helper.m */,
+				DFB0297F2073336D00546D26 /* UIView+PKExtension.h */,
+				DFB029802073336D00546D26 /* UIColor+Extension.h */,
+				DFB029812073336D00546D26 /* UIButton+PKExtension.m */,
+				DFB029822073336D00546D26 /* UIImage+PKExtension.m */,
+				DFB029832073336D00546D26 /* UIBarButtonItem+Extension.h */,
+				DFB029842073336D00546D26 /* NSString+Helper.h */,
+				DFB029852073336D00546D26 /* UIButton+PKExtension.h */,
+				DFB029862073336D00546D26 /* UIView+PKExtension.m */,
+				DFB029872073336D00546D26 /* UIColor+Extension.m */,
+				DFB029882073336D00546D26 /* UIBarButtonItem+Extension.m */,
+				DFB029892073336D00546D26 /* UIImage+PKExtension.h */,
+			);
+			path = category;
+			sourceTree = "<group>";
+		};
+		DFB02990207333A100546D26 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				DFB02991207333A100546D26 /* PKGlobeConst.m */,
+				DFB02992207333A100546D26 /* RequestTool.h */,
+				DFB02993207333A100546D26 /* PKGlobeConst.h */,
+				DFB02994207333A200546D26 /* RequestTool.m */,
+			);
+			path = Request;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1321,6 +1377,7 @@
 			files = (
 				DFB028AC2073182500546D26 /* AFNetworkActivityIndicatorManager.m in Sources */,
 				DFB028F22073182500546D26 /* NSObject+MJClass.m in Sources */,
+				DFB0298E2073336D00546D26 /* UIColor+Extension.m in Sources */,
 				DFB028E02073182500546D26 /* MJRefreshAutoGifFooter.m in Sources */,
 				DFB027B32073160A00546D26 /* VTBaseViewController.m in Sources */,
 				DFB0279C2073117000546D26 /* IQKeyboardReturnKeyHandler.m in Sources */,
@@ -1328,12 +1385,14 @@
 				DFB0297020731BD200546D26 /* UIViewController+baseMethod.m in Sources */,
 				DFB0296F20731BD200546D26 /* UIImage+Snap.m in Sources */,
 				DFB028EC2073182500546D26 /* MJPropertyType.m in Sources */,
+				DFB0298C2073336D00546D26 /* UIImage+PKExtension.m in Sources */,
 				DFB0296520731BD200546D26 /* NSString+Extension.m in Sources */,
 				DFB028D32073182500546D26 /* UIView+WebCacheOperation.m in Sources */,
 				DFB028AF2073182500546D26 /* UIActivityIndicatorView+AFNetworking.m in Sources */,
 				DFB028F02073182500546D26 /* MJExtensionConst.m in Sources */,
 				DFB0297120731BD200546D26 /* UITableViewCell+baseMethod.m in Sources */,
 				DFB028CC2073182500546D26 /* UIImage+MultiFormat.m in Sources */,
+				DFB02996207333A200546D26 /* RequestTool.m in Sources */,
 				DFB028EF2073182500546D26 /* NSObject+MJCoding.m in Sources */,
 				DFB028E62073182500546D26 /* MJRefreshHeader.m in Sources */,
 				DFB028D12073182500546D26 /* NSData+ImageContentType.m in Sources */,
@@ -1389,6 +1448,7 @@
 				DFB028D72073182500546D26 /* MJRefreshConst.m in Sources */,
 				DFB027962073117000546D26 /* IQNSArray+Sort.m in Sources */,
 				DFB028DB2073182500546D26 /* UIView+MJExtension.m in Sources */,
+				DFB0298F2073336D00546D26 /* UIBarButtonItem+Extension.m in Sources */,
 				DFB028C22073182500546D26 /* MASViewConstraint.m in Sources */,
 				DFB028C02073182500546D26 /* View+MASAdditions.m in Sources */,
 				DFB028F32073182500546D26 /* NSString+MJExtension.m in Sources */,
@@ -1397,9 +1457,11 @@
 				DFB028C82073182500546D26 /* SDWebImageDecoder.m in Sources */,
 				DFB0297320731BD200546D26 /* NSFileManager+Paths.m in Sources */,
 				DFB028E82073182500546D26 /* MJRefreshAutoFooter.m in Sources */,
+				DFB0298B2073336D00546D26 /* UIButton+PKExtension.m in Sources */,
 				DFB028BC2073182500546D26 /* MASCompositeConstraint.m in Sources */,
 				DFB028CF2073182500546D26 /* SDImageCache.m in Sources */,
 				DFB028DE2073182500546D26 /* MJRefreshBackNormalFooter.m in Sources */,
+				DFB0298A2073336D00546D26 /* NSString+Helper.m in Sources */,
 				DFB0296C20731BD200546D26 /* UIWindow+MainWindow.m in Sources */,
 				DFB027972073117000546D26 /* IQUIWindow+Hierarchy.m in Sources */,
 				DFB0295E20731BD200546D26 /* BaseFileCacheManager.m in Sources */,
@@ -1433,6 +1495,7 @@
 				DFB028D02073182500546D26 /* SDWebImageDownloaderOperation.m in Sources */,
 				DFB028BB2073182500546D26 /* ViewController+MASAdditions.m in Sources */,
 				DFB028B02073182500546D26 /* UIWebView+AFNetworking.m in Sources */,
+				DFB0298D2073336D00546D26 /* UIView+PKExtension.m in Sources */,
 				DFB028FF2073187B00546D26 /* BaseUserInfoModel.m in Sources */,
 				DFB0295C20731BD200546D26 /* BaseRequestManager.m in Sources */,
 				DFB0297420731BD200546D26 /* UIViewExt.m in Sources */,
@@ -1445,6 +1508,7 @@
 				DFB0296D20731BD200546D26 /* ZXPUnicode.m in Sources */,
 				DFB0296E20731BD200546D26 /* NSArray+ZHY.m in Sources */,
 				DFB028EB2073182500546D26 /* MBProgressHUD.m in Sources */,
+				DFB02995207333A200546D26 /* PKGlobeConst.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
