@@ -1,0 +1,32 @@
+//
+//  BasePrefixHeader.pch
+//  BaseProject
+//
+//  Created by lianjie on 2017/10/31.
+//  Copyright © 2017年 lianjie. All rights reserved.
+//
+
+
+/**
+ PCH文件配置:
+  【Bulid Settings】-> 【Prefix Header】"$(SRCROOT) + 工程路径+文件名.pch"。
+ 【EXP】：“$(SRCROOT)/LW_baseProject/Macro/BasePrefixHeader.pch”
+ */
+
+#ifndef BasePrefixHeader_pch
+#define BasePrefixHeader_pch
+
+#import "BasePrefrenceKey.h"
+
+//#import "CategoriesClass.h"
+
+#import "BaseDefine.h"
+#import "UIView+Extension.h"
+#import "UIViewController+baseMethod.h"
+#import "UITableViewCell+baseMethod.h"
+#import "UIView+baseMethod.h"
+
+///第三方
+#import "Masonry.h"
+
+#endif /* BasePrefixHeader_pch */

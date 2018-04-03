@@ -1,0 +1,75 @@
+//
+//  NSFileManager+Paths.m
+//  BaseProject
+//
+//  Created by lianjie on 2017/11/3.
+//  Copyright © 2017年 lianjie. All rights reserved.
+//
+
+#import "NSFileManager+Paths.h"
+#import <sys/xattr.h>
+@implementation NSFileManager (Paths)
+
+
++(NSURL *)URLForDirectory:(NSSearchPathDirectory)directory
+{
+    
+    return [self.defaultManager URLsForDirectory:directory inDomains:NSUserDomainMask].lastObject;
+    
+}
+
++(NSString *)pathForDirectory:(NSSearchPathDirectory)directory
+{
+    return NSSearchPathForDirectoriesInDomains(directory,NSUserDomainMask,YES)[0];
+}
+
+
++(NSURL *)documentsURL
+{
+    return [self URLForDirectory:NSDocumentDirectory];
+}
+
++(NSString *)documentsPath
+{
+    return [self pathForDirectory:NSDocumentDirectory];
+}
+
++(NSURL *)libraryURL
+{
+    return [self URLForDirectory:NSLibraryDirectory];
+}
+
++(NSString *)libraryPath
+{
+    return [self pathForDirectory:NSLibraryDirectory];
+}
+
++(NSURL *)cachesURL
+{
+    return [self URLForDirectory:NSCachesDirectory];
+}
+///获取沙盒路径
++(NSString *)cachesPath
+{
+    return [self pathForDirectory:NSCachesDirectory];
+}
+
++(BOOL)addSkipBackupAttributeToFile:(NSString *)path
+{
+    
+    return [[NSURL.alloc initFileURLWithPath:path] setResourceValue:@(YES) forKey:NSURLIsExcludedFromBackupKey error:nil];
+    
+}
+
++(double)availableDiskSpace
+{
+    
+    NSDictionary *attributes = [self.defaultManager attributesOfItemAtPath:self.documentsPath error:nil];
+    
+    return [attributes[NSFileSystemFreeSize] unsignedLongLongValue] / (double)0x100000;
+}
+
+
+
+
+@end
